@@ -1,0 +1,110 @@
+h1{
+  margin: 0;
+}
+.App {
+  background-color: #5b7eb9;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding: 50px;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  float:left;
+  height: 100px;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.linkHeader{
+  text-decoration: none;
+  color: white;
+}
+
+.linkHeader:hover{
+  text-decoration: none;
+  color: rgb(210, 210, 210);
+  font-size: calc(11px + 2vmin);
+}
+
+.searchBar{
+  background-color: rgb(170, 170, 170); 
+  border: none;
+  color: 1d232f;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor:text;
+}
+.searchBar:hover{
+  background-color: rgb(223, 223, 223); 
+}
+.button{
+  width: auto;
+  background-color: #252d3b; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #3b4659;
+}
+
+.eventList{
+  display: flex;
+  flex-wrap: wrap ;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.card{
+  background-color: #5b7eb9;
+  width: 90%;
+  text-decoration: none;
+  color: white;
+}
+.card:hover{
+  background-color: #7397d5;
+  width: 100%;
+}
+
+.App-footer{
+  padding: 50px;
+  color: white;
+  background-color: #282c34;
+}
